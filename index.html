@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="normalize.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <style>
+    form {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+  <title>User Manager | Dashboard</title>
+</head>
+
+<body>
+  <div id="wrapper">
+    <h1 class="page-title">User Manager | Dashboard</h1>
+    <a href="add_user.html" class="link">Add User</a>
+    <a href="modify_user.html" class="link">Modify User</a>
+    <a href="delete_user.html" class="link">Delete User</a>
+    <form action="view.php">
+      <input type="submit" class="link" value="View" name="submit">
+    </form>
+  </div>
+</body>
+
+</html>
